@@ -1,4 +1,4 @@
-# Aurora API (aurora-noaa)
+# Aurora API (auroranoaa)
 
 PyPi integration to support the Home Assistant Aurora integration.
 
