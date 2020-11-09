@@ -8,10 +8,4 @@ PyPi integration to support the Home Assistant Aurora integration.
 
 Request the NOAA Aurora forecast for the given longitude and latitude.
 
-Return value will be an integer of the forecast:
-- 0 - 0% Chance
-- 1 ~ 20% Chance
-- 2 ~ 40% Chance
-- 3 ~ 60% Chance
-- 4 ~ 80% Chance
-- >4 ~ 90+% Chance
+Return value will be an integer of the forecast % chance of there being an Aurora event at the given coordinates.
