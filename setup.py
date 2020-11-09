@@ -4,8 +4,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="aurora-noaa", 
-    packages=["aurora-noaa"],
+    name="auroranoaa", 
+    packages=["auroranoaa"],
     version="0.0.1",
     license='apache-2.0',
     author="Tim Empringham",
