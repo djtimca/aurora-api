@@ -34,5 +34,5 @@ class AuroraForecast:
     for forecast_item in forecast_data["coordinates"]:
         forecast_dict[forecast_item[0], forecast_item[1]] = forecast_item[2]
 
-    return forecast_dict[int(longitude), int(latitude)]
+    return forecast_dict.get((int(longitude), int(latitude)),0)
     
