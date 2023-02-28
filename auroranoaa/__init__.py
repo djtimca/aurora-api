@@ -24,6 +24,7 @@ class AuroraForecast:
   async def get_forecast_data(self, longitude:float, latitude:float):
     """Return a dict of the requested forecast data."""
     
+    longitude = longitude % 360 # Convert -180 to 180 to 360 longitudinal values 
     forecast_dict = {}
 
     async with await self._session.get(APIUrl) as resp:
