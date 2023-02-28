@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 setuptools.setup(
     name="auroranoaa", 
     packages=["auroranoaa"],
-    version="0.0.2",
+    version="0.0.3",
     license='apache-2.0',
     author="Tim Empringham",
     author_email="tim.empringham@live.ca",
@@ -14,7 +14,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/djtimca/aurora-api",
-    download_url = 'https://github.com/djtimca/aurora-api/archive/v_0.0.2.tar.gz',
+    download_url = 'https://github.com/djtimca/aurora-api/archive/v_0.0.3.tar.gz',
     keywords = ['NOAA', 'Aurora'],
     classifiers=[
         'Development Status :: 3 - Alpha',
