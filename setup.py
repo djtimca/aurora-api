@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 setuptools.setup(
     name="auroranoaa", 
     packages=["auroranoaa"],
-    version="0.0.3",
+    version="0.0.5",
     license='apache-2.0',
     author="Tim Empringham",
     author_email="tim.empringham@live.ca",
